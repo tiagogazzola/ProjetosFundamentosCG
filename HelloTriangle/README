@@ -1,0 +1,15 @@
+TIAGO UMBERTO GAZZOLA
+
+COMENTARIO:
+Tive um problema que o codigo não queria rodar, dava o erro a baixo, 
+a solução foi clicar com o botão direito no projeto na hierarquia e depois clicar 
+em "Retarget Projects". Estou utilizando a versão mais atual do Visual Studio 2022
+
+ERRO:
+Severity	Code	Description	Project	File	Line	Suppression State
+Error	MSB8020	The build tools for Visual Studio 2019 (Platform Toolset = 'v142') 
+cannot be found. To build using the v142 build tools, please 
+install Visual Studio 2019 build tools.  Alternatively, you may upgrade to the 
+current Visual Studio tools by selecting the Project menu or right-click the solution, 
+and then selecting "Retarget solution".	HelloTriangle	C
+:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets	456	
